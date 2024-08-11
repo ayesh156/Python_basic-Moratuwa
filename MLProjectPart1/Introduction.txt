@@ -1,0 +1,34 @@
+Your First Machine Learning Project Part 1:Getting Started
+
+Introduction
+
+Before everything else, you should know what dataset you are going to use and the questions you are trying to answer using the data set with the help of machine learning.
+
+A typical machine learning project has the following steps:
+
+Get the data: Explore it to understand the task at hand
+Preprocess the data
+Decide what kind of machine learning model is required depending on the task at hand
+Initialize the model with the necessary parameters
+Train the model(s)
+Evaluate the model(s) with a test dataset
+Deploy the model if the performance is good enough, Otherwise go back to 2 or 3 or 4 as appropriate.
+
+Our Dataset
+
+For our first machine learning project, we are trying to predict the type of Iris flower, using some measurements of the flower. There are 3 types of Iris flowers we are considering in our dataset
+
+Iris Versicolor
+Iris Setosa
+Iris Virginica
+
+Those are the ‘labels’ of our machine learning task.
+
+This dataset was prepared by R. A. Fischer, way back in 1936! It doesn’t contain photos of flowers. Instead, it contains the following measurements of individual flowers:
+
+Sepal length
+Sepal width
+Petal length
+Petal width
+
+Those are the attributes or features of our machine learning task. All measurements are in centimeters and the dataset contains such measurements for 150 flowers belonging to the above three subtypes of Iris. It’s one of the most popular datasets for developing and evaluating machine learning algorithms. 

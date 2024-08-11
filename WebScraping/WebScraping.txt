@@ -1,0 +1,8 @@
+Web Scraping in 
+
+Introduction
+
+Extracting specific content from a webpage is called 'Web Scraping". Web pages could be quite complicated to read and understand in its HTML format.
+To understand a structure of the web page, we can use a tool such as web browser's inspect tool.
+
+In Firefox or Chrome Browsers, you can right click on any item of interest, and choose Inspect (Right Click + Q). The item will be highlighted in the page, and the source code related to the selected item will be highlighted in a source-code view, (DOM and Style Inspector: Ctrl+Shift+C). You can identify the related tags, class or ID related to the interested item by observing the corresponding source code.

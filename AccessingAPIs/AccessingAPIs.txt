@@ -1,0 +1,51 @@
+RESTful APIs
+ 
+API (Application Programming Interface) is an interface that facilitates communication between two software. In web services, these two software are often a web service/server and a web client. APIs facilitate sending and retrieving data as well as modifying existing data stores at an API server.
+
+RESTful APIs
+
+There are different API standards used in various applications. One of the widely used type of APIs is called RESTful APIs or REST APIs. REST APIs work on top of the Hyper Text Transfer Protocol, in short the HTTP protocol to accept request. REST APIs can be accessed by sending HTTP requests.
+
+Most common HTTP requests used in REST APIs:
+
+GET : Retrieve existing data
+
+POST : Add new data
+
+PUT : Update existing data
+
+PATCH : Partially update existing data
+
+DELETE : Delete data
+
+Response Codes
+
+Once a REST API receives an HTTP request, it returns a response as an HTTP status code.Status codes can be categorized based on the starting digit as follows:
+
+1xx: Information response
+
+2xx: Successful operation
+
+3xx: Redirection
+
+4xx: Client error
+
+5xx: Server error
+
+API Endpoints
+
+API Endpoints are Public URLs exposed by the API server or the web service. Software clients can access APIs by sending requests to these exposed URLs.
+
+For example, let’s say that there is an API that provides vehicle registration information and it is hosted at the base URL https://vehicleapi.com.
+
+Accessing APIs with Python Requests Library
+REST APIs can be accessed on Python using requests library. requests is an external library, thus needs to be installed on the Python environment before using.
+
+Requests library can be installed using pip as follows:
+
+pip install requests
+This command needs to be given in the command prompt. pip is a utility that helps us install and manage python libraries.
+
+GET Requests
+
+Here is an example GET request to retrieve vehicle information from the imaginary API we created, which is having the base URL https://vehicleapi.com. According the API endpoint table shown above, the API endpoint for retrieving vehicle information is BASEURL/vehicles.

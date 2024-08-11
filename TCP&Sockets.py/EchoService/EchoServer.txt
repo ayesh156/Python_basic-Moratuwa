@@ -1,0 +1,15 @@
+TCP Applications
+
+Let us build a simple application which communicate both ways.
+
+Echo Server
+
+Echo Server is a server which follows the client-server architecture. The client will establish a connection to the server, and send a message. The server (i.e. Echo server) will receive the message from the client and send the same message back to the client.
+
+You can find two trinkets below to test the echo server and echo client. First, you have to run the first trinket, (echoserver.py) and it will be "Listening.." to any incoming requests from clients.
+
+Then you can run the second trinket (echoclient.py) using the ip address and the port number for echoserver application. We are using the IP address 127.0.0.1 localhost, assuming both of our trinkets are running in a same machine.
+
+(Here, you might face some difficulty connecting to the server, with an error message such as Connection Refused. This is because the trinket is a shared resource which is used to facilitate coding in the browser itself, but the port numbers are unique and shared with many students. Therefore, it is preferred if you use a local environment such as IDLE to test these networked appilcations.)
+
+You can try to run the second trinket with echoclient (try several times if there is an error message) to see a Hello! message being delivered to the server and received back. You will see the echoserver output (first trinket) will display the established connection details of the echoclient as well.

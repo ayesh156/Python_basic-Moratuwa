@@ -1,0 +1,13 @@
+Data Visualization
+**You may attempt this section in the Jupyter Notebook: 
+https://colab.research.google.com/drive/19oUOYZ3N8152ZRN1i9_jPXMezpCBTFO-#scrollTo=J26a1eM1w_cx
+
+In this tutorial we will look into how to visualize data.
+There are 3 broder categories of visualization.
+
+Univariate Visualization
+Bivariate Visualization
+Multivariate Visualization
+Univariate Visualization
+
+Univariate visualisation is about visualise single attribute. First we need to find the data type of an and then we can visualise them. There are 4 data types: categorical nominal, categorical ordinal, metric discrete and metric continoues. Based on the data type we can choose appropriate visualization

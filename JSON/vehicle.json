@@ -1,0 +1,14 @@
+{
+    "motorvehicle": {
+        "vehicle": {
+            "registration_no": "CBB1456",
+            "make": "Toyota",
+            "model": "Premio"
+        },
+        "owner": {
+            "first_name": "Amal",
+            "last_name": "Perera",
+            "nic": "900324779v"
+        }
+    }
+}

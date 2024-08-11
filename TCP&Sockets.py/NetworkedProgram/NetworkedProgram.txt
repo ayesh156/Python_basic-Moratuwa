@@ -1,0 +1,27 @@
+Your first networked python program
+
+You have two programs which can run on different devices, and we need to establish a connection and transfer data between them.
+
+In this exercise, let us build such application in client-server architecture.
+
+Two applications are named server and the client. We shall use two trinkets to demonstrate this.
+
+Greetings server
+
+Application protocol:
+
+The server will greet any client just as they connect to the server. Client does not transmit anything, it will just receive the greeting messagemfrom the server. This is the simplest client server program you can write.
+
+ 
+Even though the trinkets are working apparently accessible from a web browser, the script is running in a remote computer. You only see the console in your browser.
+
+First you have to execute the server script which will open a "Server socket" in the machine in trinket.io
+
+It will keep listening for clients to connect to the server at the localhost 127.0.0.1 ip address.
+Second trinket is a client program, it will attempt to connect to the 127.0.0.1 via the given port. Given the port number is correct and everything is well, you will be able to communicate with the server trinket. You can try to repeat client trinket several times and observe the output of server the same time to see how the applications are communicating.
+
+You might encounter following error from the client side. Simply wait for few seconds and try to run the client program again.
+
+ConnectionRefusedError: [Errno 111] Connection refused
+
+You can save these two codes to your own computer, and try them locally to get more reliable and uncrowded environment.

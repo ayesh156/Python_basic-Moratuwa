@@ -1,0 +1,11 @@
+Transmission Control Protocol
+
+TCP - Transmission Control Protocol is a connection oriented Transport Layer protocol which can establish a connection between two application programs across a network.
+
+TCP works on top of the IP-Internet protocol to recognize the device. Internet Protocol provide an addiress (the IP address) to identify a single host (device/a computer) in a network. A specific application is identified using a port number. So, an IP address and port number can be used to establish a connection using the TCP.
+
+IP Addresses are difficult to remember, so the Domain Name Service (DNS) can be used instead of an IP address. This service will automatically translate a human readbale text name such as google.com to the corresponding IP address, such as 142.250.67.206.
+
+TCP over IP (TCP/IP) can be used to establish a connection between two communication endpoints(i.e. IP address and port number). TCP does not define what will be communicated, after the connection is established. For the details such as who will send the first message, and how long each message will be, an 'Application Layer' protocol is necessary.
+
+Port numbers can sometimes be associated with some popular application level protocols. For example, port 80 is usually reserved for HTTP web-server, and port 443 is reserved for HTTPS secured-web-server applications by convention.

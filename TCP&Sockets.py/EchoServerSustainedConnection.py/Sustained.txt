@@ -1,0 +1,7 @@
+EchoServer with a Sustained Connection
+
+Previous version of the echoserver is totally fine to handle any message, however, it only serves a single request from the client, before disconnecting.
+Sustained connection to the server can be useful to communicate fast.
+
+echoserverv3.py can keep the connection alive until it receives a very specific message, 'exit'. echoclientv3.py will establish a connection, and it will ask for user input for a message to be sent to the server, and to get echoed back.
+Client can enter the message using the keyboard, and press enter to send the message. If the message reads as exit, the client will terminate the program after echoing the message through server.

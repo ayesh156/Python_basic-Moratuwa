@@ -1,0 +1,11 @@
+Buffered EchoServer
+
+This is an improved echo server application which can be used with arbitrary sized messages
+
+First observe the behavior of the program by first starting the echoserverv2, and then running the echoclientv2.
+
+Read the code at both server-side and client-side carefully and try to understand it.
+
+Now you understand the concept, use the IDLE local environment or use the trinket to code this program by yourself. You can start with the echoserver (version1) and echoclient (version1) and improve it to achieve the functionality of the version 2.
+
+Practice is important! So make sure you can code this buferred server and client before moving to the next section!
